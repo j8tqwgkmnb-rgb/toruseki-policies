@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トルセキ - シンプルな出席管理アプリ</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin: 0 0 10px 0;
+        }
+        .header p {
+            font-size: 20px;
+            margin: 0;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: -30px auto 0;
+            padding: 40px 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .feature h3 {
+            margin: 10px 0;
+            color: #667eea;
+        }
+        .links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .link-button:hover {
+            background-color: #5568d3;
+        }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>トルセキ</h1>
+        <p>教師のためのシンプルな出席管理アプリ</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2 style="text-align: center; color: #667eea;">主な機能</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <h3>簡単記録</h3>
+                    <p>出席・欠席・遅刻を<br>タップで記録</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>統計分析</h3>
+                    <p>出席率を自動集計<br>グラフで可視化</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">☁️</div>
+                    <h3>クラウド同期</h3>
+                    <p>複数端末で<br>データを共有</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>オフライン対応</h3>
+                    <p>ネットなしでも<br>使える</p>
+                </div>
+            </div>
+
+            <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 30px 0;">
+                <h3 style="margin-top: 0; color: #667eea;">こんな方におすすめ</h3>
+                <ul>
+                    <li>学校・塾の先生</li>
+                    <li>習い事の講師</li>
+                    <li>セミナー講師</li>
+                    <li>トレーニング指導者</li>
+                </ul>
+            </div>
+
+            <div style="text-align: center; margin: 30px 0;">
+                <h3 style="color: #667eea;">基本機能は完全無料</h3>
+                <p>今すぐApp Storeからダウンロード！</p>
+            </div>
+
+            <div class="links">
+                <a href="privacy-policy.html" class="link-button">プライバシーポリシー</a>
+                <a href="terms.html" class="link-button">利用規約</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>お問い合わせ: <a href="mailto:toruseki.deruseki@gmail.com">toruseki.deruseki@gmail.com</a></p>
+        <p>© 2025 トルセキ. All rights reserved.</p>
+    </div>
+</body>
+</html>
+
